@@ -71,6 +71,7 @@ describe('index', () => {
   })
   describe('toggleTrueAndFalseButtons', function(){
     it('changes hidden true and false buttons to displayed', function(){
+      console.log(trueAndFalseButtons());
       trueAndFalseButtons().forEach(function(btn){
         btn.classList.add('hide')
       })
